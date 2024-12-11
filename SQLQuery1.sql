@@ -1,0 +1,12 @@
+CREATE DATABASE GuessGameDB;
+GO
+
+USE GuessGameDB;
+GO
+
+CREATE TABLE Users (
+    username VARCHAR(255) PRIMARY KEY,
+    password VARCHAR(255) NOT NULL
+);
+GO
+
